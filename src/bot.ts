@@ -13,8 +13,11 @@ const bot = new Telegraf(process.env.TOKEN!);
 
 
 bot.start((ctx) => ctx.reply('¡Hola! Soy tu bot de Telegram 🤖'));
-bot.help((ctx) => ctx.reply('Envíame un mensaje y te responderé.'));
-bot.on('text', (ctx) => ctx.reply(`Recibí tu mensaje: ${ctx.message.text}`));
-
+bot.help((ctx) => ctx.reply('Comandos disponibles: /start, /help, /time'));
+bot.command('time', (ctx) => {
+    const now = new Date();
+    const time = now.toLocaleString();
+    ctx.reply(`La fecha y hora actual es: ${time}`);
+});
 bot.launch();
 console.log('🤖 Bot iniciado...');
