@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/nicolasaddamo1/ltgbot/issues"
   },
-  "homepage": "https://github.com/nicolasaddamo1/ltgbot#readme"
+  "homepage": "https://github.com/nicolasaddamo1/ltgbot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
 }
