@@ -1,0 +1,20 @@
+{
+  "name": "ltgbot",
+  "version": "1.0.0",
+  "description": "Este es un bot de Telegram experimental desarrollado con [Telegraf](https://github.com/telegraf/telegraf) y Node.js. Su propósito es servir como base para probar nuevas funcionalidades en la plataforma de bots de Telegram.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasaddamo1/ltgbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasaddamo1/ltgbot/issues"
+  },
+  "homepage": "https://github.com/nicolasaddamo1/ltgbot#readme"
+}
