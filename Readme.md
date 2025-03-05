@@ -15,5 +15,5 @@ Este es un bot de Telegram experimental desarrollado con [Telegraf](https://gith
 ## 📦 Instalación
 1. Clona este repositorio:
    ```sh
-   git clone https://github.com/tuusuario/tlgbot.git
-   cd tlgbot
+   git clone https://github.com/tuusuario/ltgbot.git
+   cd ltgbot
